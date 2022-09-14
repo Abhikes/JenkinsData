@@ -19,7 +19,7 @@ public class ListnerClass implements ITestListener {
 	//@Override
 	public void onTestStart(ITestResult result) {
 	  Reporter.log("Test Case Number"+result.getName()+"started",true);	
-	
+	  System.out.println("Hello data");
 	}
 
 	//@Override
